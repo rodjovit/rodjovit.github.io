@@ -1,0 +1,88 @@
+{
+  "name": "Gail Feindt",
+  "value": 50,
+  "children": [
+    {
+      "name": "Alpha Chessor",
+      "value": 18,
+      "children": [
+        {
+          "name": "Luke Ramos",
+          "value": 3
+        },
+        {
+          "name": "Lillia Steffensmeier",
+          "value": 3
+        },
+        {
+          "name": "Jane Tyler",
+          "value": 3
+        },
+        {
+          "name": "Santiago Batten",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Richard Fox",
+      "value": 15,
+      "children": [
+        {
+          "name": "Jane Tyler",
+          "value": 4
+        },
+        {
+          "name": "Meryl Pastuch",
+          "value": 4
+        },
+        {
+          "name": "Timothy Gibson",
+          "value": 3
+        },
+        {
+          "name": "Kerstin Belveal",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Laure Pelkey",
+      "value": 9,
+      "children": [
+        {
+          "name": "Yong Wilbert",
+          "value": 6
+        },
+        {
+          "name": "Lavona Smola",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Meryl Pastuch",
+      "value": 4,
+      "children": [
+        {
+          "name": "Rosalia Larroque",
+          "value": 6
+        },
+        {
+          "name": "Lindsy Henion",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "Tobi Gatlin",
+      "value": 4,
+      "children": [
+        {
+          "name": "Sherrell Biebel",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

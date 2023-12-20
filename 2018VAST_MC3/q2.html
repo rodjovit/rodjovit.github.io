@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VAST 2018 MC 3 Q2</title>
+    <meta charset="UTF-8">
+    <link href="vast.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+</head>
+
+<body class="content">
+    <h1 class="title">Question 2</h1>
+    <div id="my_dataviz">
+
+    </div>
+    <script type="text/javascript">
+
+        // set the dimensions and margins of the graph
+        var margin = { top: 20, right: 30, bottom: 20, left: 55 },
+            width = window.screen.width - margin.left - margin.right - 200,
+            height = window.screen.height - margin.top - margin.bottom - 400;
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#my_dataviz")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // Read dummy data
+        d3.json("https://raw.githubusercontent.com/jmcg0192/project/main/susJson.json", function (data) {
+
+            // List of node names
+            var allNodes = data.nodes.map(function (d) { return d.name; });
+
+            // A linear scale to position the nodes on the Y axis
+            var y = d3.scalePoint()
+                .range([0, height])
+                .domain(allNodes);
+
+            // Add links between nodes
+            var idToNode = {};
+            data.nodes.forEach(function (n) {
+                idToNode[n.id] = n;
+            });
+
+            var links = svg
+                .selectAll('mylinks')
+                .data(data.links)
+                .enter()
+                .append('path')
+                .attr('d', function (d) {
+                    var start = y(idToNode[d.source].name); // Y position of start node on the Y axis
+                    var end = y(idToNode[d.target].name); // Y position of end node
+                    return ['M', 110, start,
+                        'A',
+                        (start - end) / 2 * 4, ',',
+                        (start - end) / 2, 0, 0, ',',
+                        start < end ? 1 : 0, 110, ',', end]
+                        .join(' ');
+                })
+                .style("fill", "none")
+                .attr("stroke", function (d) {
+                    var numInteractions = data.links.filter(link => link.source === d.source && link.target === d.target).length;
+
+                    var color = d3.scaleLinear()
+                        .domain([1, d3.max(data.links, function (link) {
+                            return data.links.filter(link => link.source === d.source && link.target === d.target).length;
+                        })])
+                        .range(["#ffcccc", "#ff0000"]);
+
+                    return color(numInteractions);
+                })
+                .attr("stroke-width", function (d) {
+                    var numInteractions = data.links.filter(link => link.source === d.source && link.target === d.target).length;
+                    return Math.max(numInteractions, 1);
+                });
+
+            // Add the circle for the nodes
+            var circles = svg
+                .selectAll("mynodes")
+                .data(data.nodes)
+                .enter()
+                .append("circle")
+                .attr("cx", 110)
+                .attr("cy", function (d) { return y(d.name); })
+                .attr("r", 12)
+                .style("fill", "#69b3a2");
+
+            // And give them a label
+            svg
+                .selectAll("mylabels")
+                .data(data.nodes)
+                .enter()
+                .append("text")
+                .attr("x", 20)
+                .attr("y", function (d) { return y(d.name); })
+                .text(function (d) { return d.name; })
+                .style("text-anchor", "middle")
+                .style("alignment-baseline", "middle");
+
+            // Hover effect
+            circles.on("mouseover", function (d) {
+                var hoveredName = d.name;
+                links.style("display", function (link) {
+                    return (idToNode[link.source].name === hoveredName || idToNode[link.target].name === hoveredName) ? "initial" : "none";
+                });
+            })
+                .on("mouseout", function () {
+                    links.style("display", "initial"); // Show all links on mouseout
+                });
+
+        });
+
+    </script>
+</body>
+
+</html>
