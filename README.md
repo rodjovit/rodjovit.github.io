@@ -88,5 +88,49 @@ This project is part of the article analysis project. This stage of the analysis
 ## SQL/Relational Databases
 ### [2022 NFL QB and WR Stats Database](https://github.com/rodjovit/rodjovit.github.io/tree/60808f04beaa13f5b2cc832211b83fd081c6dc65/2022nfl_database)
 
-The purpose of this project was to analyze stats recorded for every wide receiver and quarterback in the 2022 NFL season. This project utilized relational databases concepts as well as SQL programming in both data defining and data manipulation languages (DDL and DML). This project is a fleshed out database for stats for every NFL conference, division, team, quarterback, and wide receiver. It contains tables for these entities as well as the necessary bridging tables needed for relational databases. It records the wins and losses for every entity as a whole and individual, as well as many individual stats such as yards, receptions, pass attempts, etc. As a result, I was able to use SQL queries to pull data for analysis, and gain much insight to the success of a team in regards to their quarterback's and wide receiver's performances.
+The purpose of this project was to analyze stats recorded for every wide receiver and quarterback in the 2022 NFL season. This project utilized relational databases concepts as well as SQL programming in both data defining and data manipulation languages (DDL and DML). This project is a fleshed out database for stats for every NFL conference, division, team, quarterback, and wide receiver. It contains tables for these entities as well as the necessary bridging tables needed for relational databases.
+
+The tables attributes consist of:
+  * for Conferences:
+    * Name
+    * Win/Loss Record
+  * for Divisions:
+    * Conference
+    * Name
+    * Win/Loss Record
+  * for Teams:
+    * Conference
+    * Division
+    * Name
+    * City
+    * Mascot
+    * Win/Loss Record
+  * for Quarterbacks:
+    * Conference
+    * Division
+    * Team
+    * First Name
+    * Last Name
+    * Pass Yards
+    * Rush Yards
+    * Pass Attempts
+    * Passes Completed
+    * Completion Percentage
+    * Yards Per Completion
+    * Win/Loss Record
+  * for Wide Receivers:
+    * Conference
+    * Division
+    * Team
+    * First Name
+    * Last Name
+    * Yards
+    * Targets
+    * Receptions
+    * Touchdowns
+    * Catch Percentage
+    * Yards Per Reception
+    * Win/Loss Record
+      
+As a result, I was able to use SQL queries to pull data for analysis, and gain much insight to the success of a team in regards to their quarterback's and wide receiver's performances. I was also able to gain secondary insights such as a division's success and a conference's succes in regards to the quarterbacks and wide receivers in those divisions/conferences. Not only did the tables outline good performances, they also outlined bad performances which allowed for analysis pertaining to failures of a team based on quarterback and wide receiver performances. 
 
