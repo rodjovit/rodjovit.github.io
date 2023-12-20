@@ -134,5 +134,5 @@ The tables attributes consist of:
     * Yards Per Reception
     * Win/Loss Record
       
-As a result, I was able to use SQL queries to pull data for analysis, and gain much insight to the success of a team in regards to their quarterback's and wide receiver's performances. I was also able to gain secondary insights such as a division's success and a conference's succes in regards to the quarterbacks and wide receivers in those divisions/conferences. Not only did the tables outline good performances, they also outlined bad performances which allowed for analysis pertaining to failures of a team based on quarterback and wide receiver performances. 
+As a result, I was able to use SQL queries to pull data for analysis, and gain much insight to the success of a team in regards to their quarterback's and wide receiver's performances. I was also able to gain secondary insights such as a division's success and a conference's success in regards to the quarterbacks and wide receivers in those divisions/conferences. Not only did the tables outline good performances, they also outlined bad performances which allowed for analysis pertaining to failures of a team based on quarterback and wide receiver performances. 
 
