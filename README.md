@@ -18,10 +18,11 @@ After testing the model on the testing dataset, the overall accuracy of the mode
 
 ## [2018 VAST MC3 Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
 Utilizing data visualization tools such as Tableau and D3, the purpose of this project was to:
- -analyze company interactions over time including calls, emails, meetings, and purchases
- -analyze "suspicious" company interactions over time (given a separate flagged dataset)
- -identify additional "suspicious" employees not outlined in the briefing dossier
- -identify "suspicious" subgroups within the company based on interactions
+
+ *analyze company interactions over time including calls, emails, meetings, and purchases
+ *analyze "suspicious" company interactions over time (given a separate flagged dataset)
+ *identify additional "suspicious" employees not outlined in the briefing dossier
+ *identify "suspicious" subgroups within the company based on interactions
  
 <p align="center">
   <img width="850" src="img/vastss1.png">
