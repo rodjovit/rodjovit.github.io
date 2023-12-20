@@ -76,6 +76,11 @@ The purpose of this project was to scrape linkes, headlines, published dates, au
 
 This project is part of the article analysis project. This stage of the analysis utilized the Natural Language Toolkit (nltk) library to parse through the strings and clean the data. Removing stopwords, stemming and lemmatizing words, and converting symbols into text was done in Python in order to prepare the data for analysis. 
 
+## SQL/Relational Databases
+### [2022 NFL QB and WR Stats Database](https://github.com/rodjovit/rodjovit.github.io/tree/60808f04beaa13f5b2cc832211b83fd081c6dc65/2022nfl_database)
+
+The purpose of this project was to analyze stats recorded for every wide receiver and quarterback in the 2022 NFL season. This project utilized relational databases concepts as well as SQL programming in both data defining and data modeling languages (DDL and DML). This project is a fleshed out database for stats for every NFL conference, division, team, quarterback, and wide receiver. It contains tables for these entities as well as the necessary bridging tables needed for relational databases. It records the wins and losses for every entity as a whole and individual, as well as many individual stats such as yards, receptions, pass attempts, etc.
+
 Alternatively, for H1 and H2, an underline-ish style:
 
 Alt-H1
