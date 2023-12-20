@@ -28,8 +28,32 @@ This project utilized concepts of data mining, data cleaning, and machine learni
 
 ![alt text](https://github.com/rodjovit/rodjovit.github.io/blob/3e36df2b5a2acb123fc3d627e60d0a498a536a40/img/ste2.png)
 
-##### H5
-###### H6
+## Machine Learning
+### [Multinomial Naive Bayes Classification](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
+
+![alt text](https://github.com/rodjovit/rodjovit.github.io/blob/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/img/mnb1.png)
+
+The purpose of this project was to implement a machine learning model to classify the sentiment of tweets. The dataset given needed to be cleaned and trasnformed (done with Python) into a useable form before being fed to the model. The classification model chosen for this application was the Multinomial Naive Bayes Classification model using the sklearn module, and classifies tweets as positive or negative based on the context. As a result, the model was able to classify the tweets with accuracy.
+
+### [K Means Clustering](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
+
+![alt text](https://github.com/rodjovit/rodjovit.github.io/blob/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/img/kmeans1.png)
+
+The purpose of this project was to implement a machine learning model to cluster cleaned article data. The clustering model chosen for this application was the K Means Clustering model using the sklearn model and clusters articles based on their Term Frequency/Inverse Document Frequency (TFIDF) vector value and it's distance from the centroid TFIDF value. As a result, the model was able to cluster the articles with accuracy.
+
+## Data Mining
+### [CNN Scraper](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/cnn_scraper)
+
+![alt text](https://github.com/rodjovit/rodjovit.github.io/blob/main/img/scraper2.png)
+
+The purpose of this project was to scrape linkes, headlines, published dates, authors, and article content from CNN, more specifically the Science and Tech genres. Utilizing BeautifulSoup to parse the HTML, I was able to scrape articles (limited for ethical reasons) and prepare them for sentiment analysis using Python.
+
+![alt text](https://github.com/rodjovit/rodjovit.github.io/blob/main/img/scraper1.png)
+
+## Data Cleaning
+### [Article Cleaner](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/text_cleaner)
+
+This project is part of the article analysis project. This stage of the analysis utilized the Natural Language Toolkit (nltk) library to parse through the strings and clean the data. Removing stopwords, stemming and lemmatizing words, and converting symbols into text was done in Python in order to prepare the data for analysis. 
 
 Alternatively, for H1 and H2, an underline-ish style:
 
