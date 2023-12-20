@@ -65,7 +65,7 @@ The purpose of this project was to implement a machine learning model to cluster
   <img width="750" src="img/scraper2.png">
 </p>
 
-The purpose of this project was to scrape links, headlines, published dates, authors, and article content from CNN, more specifically the Science and Tech genres. Utilizing BeautifulSoup to parse the HTML, I was able to scrape articles (limited for ethical reasons) and prepare them for sentiment analysis using Python.
+The purpose of this project was to scrape links, headlines, published dates, authors, and article content from CNN, more specifically the Science and Tech genres. Utilizing BeautifulSoup to parse the HTML, I was able to scrape articles (limited for ethical reasons) and prepare them for sentiment analysis using Python. As a result, the program outputs the headline, content, author, published date, and published location for every article it was able to access.
 
 <p align="center">
   <img width="750" src="img/scraper1.png">
@@ -74,10 +74,19 @@ The purpose of this project was to scrape links, headlines, published dates, aut
 ## Data Cleaning
 ### [Article Cleaner](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/text_cleaner)
 
-This project is part of the article analysis project. This stage of the analysis utilized the Natural Language Toolkit (nltk) library to parse through the strings and clean the data. Removing stopwords, stemming and lemmatizing words, and converting symbols into text was done in Python in order to prepare the data for analysis. 
+This project is part of the article analysis project. This stage of the analysis utilized the Natural Language Toolkit (nltk) library to parse through the strings and clean the data. Removing stopwords, stemming and lemmatizing words, and converting symbols into text was done in Python in order to prepare the data for analysis. As a result, the script outputs a txt file of the all the article data cleaned using the nltk library. Cleaning methods includes removing:
+  * stopwords
+  * punctuation
+  * numbers
+  * single character words
+  * contractions (and converting them into bigrams)
+  * .com
+  * non-printable characters
+  * non-ascii characters
+  * duplicate words in each sentence
 
 ## SQL/Relational Databases
 ### [2022 NFL QB and WR Stats Database](https://github.com/rodjovit/rodjovit.github.io/tree/60808f04beaa13f5b2cc832211b83fd081c6dc65/2022nfl_database)
 
-The purpose of this project was to analyze stats recorded for every wide receiver and quarterback in the 2022 NFL season. This project utilized relational databases concepts as well as SQL programming in both data defining and data manipulation languages (DDL and DML). This project is a fleshed out database for stats for every NFL conference, division, team, quarterback, and wide receiver. It contains tables for these entities as well as the necessary bridging tables needed for relational databases. It records the wins and losses for every entity as a whole and individual, as well as many individual stats such as yards, receptions, pass attempts, etc.
+The purpose of this project was to analyze stats recorded for every wide receiver and quarterback in the 2022 NFL season. This project utilized relational databases concepts as well as SQL programming in both data defining and data manipulation languages (DDL and DML). This project is a fleshed out database for stats for every NFL conference, division, team, quarterback, and wide receiver. It contains tables for these entities as well as the necessary bridging tables needed for relational databases. It records the wins and losses for every entity as a whole and individual, as well as many individual stats such as yards, receptions, pass attempts, etc. As a result, I was able to use SQL queries to pull data for analysis, and gain much insight to the success of a team in regards to their quarterback's and wide receiver's performances.
 
