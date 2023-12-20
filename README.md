@@ -31,8 +31,8 @@ Utilizing data visualization tools such as Tableau and D3, the purpose of this p
 Using OpenRefine and Pandas, I was able to clean and transform the data into a useable form for Tableau and D3. After cleaning the large datasets, I used data visualization tools to not only analyze company interactions over time, but also the suspicious interactions over time, as well as identify an additional "suspicious" employee and map out their methods of interactions. I was also able to identify changes in their interactions that corroborated with the timing of the investigation.
 
 <p align="center">
-  <img width="850" src="img/vastss2.png">
-</p>
+  <img width="850" src="img/vastss2.png"></p>
+  
 [^note]: This is just a screenshot of the interactive D3 graph. To interact with the graph, visit the html page [here](https://rodjovit.github.io/2018VAST_MC3/q3.html) .
 
 ## [Steam Reviews Analysis Project](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/steam_reviews_analysis)
