@@ -29,37 +29,46 @@ Utilizing data visualization tools such as Tableau and D3, the purpose of this p
 
 Using OpenRefine and Pandas, I was able to clean and transform the data into a useable form for Tableau and D3. After cleaning the large datasets, I used data visualization tools to not only analyze company interactions over time, but also the suspicious interactions over time, as well as identify an additional "suspicious" employee and map out their methods of interactions. I was also able to identify changes in their interactions that corroborated with the timing of the investigation.
 
-<script src="2018VAST_MC3/d3.js"></script>
-<script src="2018VAST_MC3/d3-selection-multi.js"></script>
-<script type="text/javascript" src="2018VAST_MC3/data.json"></script> 
-<script src="2018VAST_MC3/main.js"></script>
+<p align="center">
+  <img width="850" src="img/vastss2.png">
+</p>
 
 ## [Steam Reviews Analysis Project](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/steam_reviews_analysis)
 This project utilized concepts of data mining, data cleaning, and machine learning to predict probabilities of games being good or bad given a word based on Steam data. This data was gathered using the Steam API in Python, cleaned using Pandas and OpenRefine, and used a classical Naive Bayes model to predict the probability that a game will be good or bad given a word. The output is a table that lists the amount of occurrences in good and badly reviewed games, the total amount of occurrences, and the probabilities they will be in a good or bad game, as well as the probability a game will be good given the word. Further work could include allowing for input to test different combinations of titles/genres.
 
-![alt text](img/ste2.png)
+<p align="center">
+  <img width="850" src="img/ste2.png">
+</p>
 
 ## Machine Learning
 ### [Multinomial Naive Bayes Classification](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
 
-![alt text](img/mnb1.png)
+<p align="center">
+  <img width="550" src="img/mnb1.png">
+</p>
 
 The purpose of this project was to implement a machine learning model to classify the sentiment of tweets. The dataset given needed to be cleaned and trasnformed (done with Python) into a useable form before being fed to the model. The classification model chosen for this application was the Multinomial Naive Bayes Classification model using the sklearn module, and classifies tweets as positive or negative based on the context. As a result, the model was able to classify the tweets with accuracy.
 
 ### [K Means Clustering](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
 
-![alt text](img/kmeans1.png)
+<p align="center">
+  <img width="400" src="img/kmeans1.png">
+</p>
 
 The purpose of this project was to implement a machine learning model to cluster cleaned article data. The clustering model chosen for this application was the K Means Clustering model using the sklearn model and clusters articles based on their Term Frequency/Inverse Document Frequency (TFIDF) vector value and it's distance from the centroid TFIDF value. As a result, the model was able to cluster the articles with accuracy.
 
 ## Data Mining
 ### [CNN Scraper](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/cnn_scraper)
 
-![alt text](img/scraper2.png)
+<p align="center">
+  <img width="750" src="img/scraper2.png">
+</p>
 
 The purpose of this project was to scrape linkes, headlines, published dates, authors, and article content from CNN, more specifically the Science and Tech genres. Utilizing BeautifulSoup to parse the HTML, I was able to scrape articles (limited for ethical reasons) and prepare them for sentiment analysis using Python.
 
-![alt text](img/scraper1.png)
+<p align="center">
+  <img width="750" src="img/scraper1.png">
+</p>
 
 ## Data Cleaning
 ### [Article Cleaner](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/text_cleaner)
