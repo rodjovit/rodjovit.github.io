@@ -26,7 +26,7 @@ Utilizing data visualization tools such as Tableau and D3, the purpose of this p
  
 <p align="center">
   <img width="850" src="img/vastss1.png">
-</p>
+</p>[^1]: This is just a screenshot of the interactive D3 graph. To interact with the graph, visit the html page [_here_](https://rodjovit.github.io/2018VAST_MC3/q3.html).
 
 Using OpenRefine and Pandas, I was able to clean and transform the data into a useable form for Tableau and D3. After cleaning the large datasets, I used data visualization tools to not only analyze company interactions over time, but also the suspicious interactions over time, as well as identify an additional "suspicious" employee and map out their methods of interactions. I was also able to identify changes in their interactions that corroborated with the timing of the investigation.
 
