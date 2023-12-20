@@ -12,7 +12,9 @@ This project was done for a Kaggle Contest. In short, the task was to create a m
 
 After testing the model on the testing dataset, the overall accuracy of the model was 82%. To test similarities between nationality dishes, I also implemented a confusion matrix from sklearn.
 
-![alt text](img/kag2.png)
+<p align="center">
+  <img width="1000" src="img/kag1.png">
+</p>
 
 ## [2018 VAST MC3 Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
 Utilizing data visualization tools such as Tableau and D3, the purpose of this project was to:
