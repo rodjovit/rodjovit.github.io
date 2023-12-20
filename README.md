@@ -7,13 +7,13 @@ This is a technical portfolio of work that I have done in regards to programming
 This project was done for a Kaggle Contest. In short, the task was to create a machine learning model that would predict the nationality of a dish given it's ingredients. There was a training and testing dataset provided. In order to accomplish this task, I decided to implement a K-Nearest Neighbor model using sklearn. Also, I decided to implement some other clustering models such as HDBSCAN, Gaussian Mixture, Spectral Clustering and Birch to test accuracies, but ultimately ended up using K-Nearest Neighbor.
 
 <p align="center">
-  <img width="460" src="img/kag1.png">
+  <img width="500" src="img/kag1.png">
 </p>
 
 After testing the model on the testing dataset, the overall accuracy of the model was 82%. To test similarities between nationality dishes, I also implemented a confusion matrix from sklearn.
 
 <p align="center">
-  <img width="1000" src="img/kag1.png">
+  <img width="850" src="img/kag2.png">
 </p>
 
 ## [2018 VAST MC3 Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
@@ -23,11 +23,16 @@ Utilizing data visualization tools such as Tableau and D3, the purpose of this p
  -identify additional "suspicious" employees not outlined in the briefing dossier
  -identify "suspicious" subgroups within the company based on interactions
  
-![alt text](img/vastss1.png)
+<p align="center">
+  <img width="850" src="img/vastss1.png">
+</p>
 
 Using OpenRefine and Pandas, I was able to clean and transform the data into a useable form for Tableau and D3. After cleaning the large datasets, I used data visualization tools to not only analyze company interactions over time, but also the suspicious interactions over time, as well as identify an additional "suspicious" employee and map out their methods of interactions. I was also able to identify changes in their interactions that corroborated with the timing of the investigation.
 
-![alt text](img/vastss2.png)
+<script src="2018VAST_MC3/d3.js"></script>
+<script src="2018VAST_MC3/d3-selection-multi.js"></script>
+<script type="text/javascript" src="2018VAST_MC3/data.json"></script> 
+<script src="2018VAST_MC3/main.js"></script>
 
 ## [Steam Reviews Analysis Project](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/steam_reviews_analysis)
 This project utilized concepts of data mining, data cleaning, and machine learning to predict probabilities of games being good or bad given a word based on Steam data. This data was gathered using the Steam API in Python, cleaned using Pandas and OpenRefine, and used a classical Naive Bayes model to predict the probability that a game will be good or bad given a word. The output is a table that lists the amount of occurrences in good and badly reviewed games, the total amount of occurrences, and the probabilities they will be in a good or bad game, as well as the probability a game will be good given the word. Further work could include allowing for input to test different combinations of titles/genres.
