@@ -10,7 +10,7 @@ This project was done for a Kaggle Contest. In short, the task was to create a m
   <img width="500" src="img/kag1.png">
 </p>
 
-After testing the model on the testing dataset, the overall accuracy of the model was 82%. To test similarities between nationality dishes, I also implemented a confusion matrix from sklearn.
+After testing the model on the testing dataset, the overall accuracy of the model was 82%. To visualize accuracy of the model, I also implemented a confusion matrix from sklearn.
 
 <p align="center">
   <img width="850" src="img/kag2.png">
