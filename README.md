@@ -33,7 +33,7 @@ Using OpenRefine and Pandas, I was able to clean and transform the data into a u
 <p align="center">
   <img width="850" src="img/vastss2.png"></p>
   
-> [!NOTE]
+> 
 > This is just a screenshot of the interactive D3 graph. To interact with the graph, visit the html page [_here_](https://rodjovit.github.io/2018VAST_MC3/q3.html)
 
 ## [Steam Reviews Analysis Project](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/steam_reviews_analysis)
