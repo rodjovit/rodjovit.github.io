@@ -3,7 +3,7 @@
 ## Techinical Portfolio by Rodjovit Ramos
 This is a technical portfolio of work that I have done in regards to programming and data science concepts.
 
-## [Kaggle What's Cooking Contest](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/kaggle_whats_cooking)
+## [Kaggle Machine Learning What's Cooking Contest](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/kaggle_whats_cooking)
 This project was done for a Kaggle Contest. In short, the task was to implement a machine learning model that would predict the nationality of a dish given it's ingredients. There was a training and testing dataset provided. In order to accomplish this task, I decided to implement a K-Nearest Neighbor model using sklearn. Also, I decided to implement some other clustering models such as HDBSCAN, Gaussian Mixture, Spectral Clustering and Birch to test accuracies, but ultimately ended up using K-Nearest Neighbor.
 
 <p align="center">
@@ -16,7 +16,7 @@ After testing the model on the testing dataset, the overall accuracy of the mode
   <img width="850" src="img/kag2.png">
 </p>
 
-## [2018 VAST MC3 Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
+## [2018 VAST MC3 Data Visualization Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
 Utilizing data visualization tools such as Tableau and D3, the purpose of this project was to:
 
  * analyze company interactions over time including calls, emails, meetings, and purchases
@@ -44,7 +44,7 @@ This project utilized concepts of data mining, data cleaning, and machine learni
 </p>
 
 ## Machine Learning
-### [Multinomial Naive Bayes Classification](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
+### [Multinomial Naive Bayes Classification (on tweets)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
 
 <p align="center">
   <img width="550" src="img/mnb1.png">
@@ -52,7 +52,7 @@ This project utilized concepts of data mining, data cleaning, and machine learni
 
 The purpose of this project was to implement a machine learning model to classify the sentiment of tweets. The dataset given needed to be cleaned and trasnformed (done with Python) into a useable form before being fed to the model. The classification model chosen for this application was the Multinomial Naive Bayes Classification model using the sklearn module, and classifies tweets as positive or negative based on the context. As a result, the model was able to classify the tweets with a 78% accuracy.
 
-### [K Means Clustering](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
+### [K Means Clustering (on articles)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
 
 <p align="center">
   <img width="400" src="img/kmeans1.png">
