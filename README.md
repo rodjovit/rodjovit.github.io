@@ -3,6 +3,31 @@
 ## Techinical Portfolio by Rodjovit Ramos
 This is a technical portfolio of work that I have done in regards to programming and data science concepts.
 
+## [2023 NFL Machine Learning Analysis](https://github.com/rodjovit/rodjovit.github.io/blob/38caea52ab4b0d050ebede5b8060666a820fe06b/nfl_code/machine_learning_2023nfl_data.ipynb)
+This analysis was done as a hobby project. The goal of this project was to implement a machine learning model that would accurately predict whether a defense would pressure a quarterback given a number of variables. Using libraries such as sklearn, xgboost, matplotlib, and Pandas, I was able to gain plenty of insight as to what variables are important versus others when blitzing. Firstly, the analysis started with superficial knowledge of a typical pressure situation. This would lead to Part I of the project (outlined by markdown).
+
+<p align="center">
+  <img width="500" src="img/nfl1.png">
+</p>
+
+After using some matplotlib to plot certain metrics to gain insight, it was then time to prepare the data, beginning Part II. Using variables that had anomaly-like behavior seen in histograms, preparing the data would require some data manipulation techniques. In this case, I used one hot encoding with Pandas to transform data into categorical data. 
+
+<p align="center">
+  <img width="500" src="img/nfl2.png">
+</p>
+
+After this step, the data was cleaned further and finally ready for to be fed into a few models leading to Part III. The first model implemented was the XGBoost model. This model had an accuracy score of 70%, and a Brier Score of 0.202. The next model tested was the Logistic Regression model. This model had an accuracy score of 72%, and a Brier Score of 0.194. Finally, the lost model to be tested was the Random Forest model. This model had an accuracy score of 67%, and a Brier Score of 0.225.
+
+<p align="center">
+  <img width="500" src="img/nfl3.png">
+</p>
+
+To finish off the analysis, I decided to visualize which variables held the most weight in the probability. Therefore, I used matplotlib to plot the feature importance for each feature.
+
+<p align="center">
+  <img width="500" src="img/nfl4.png">
+</p>
+
 ## [Kaggle Machine Learning What's Cooking Contest](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/kaggle_whats_cooking)
 This project was done for a Kaggle Contest. In short, the task was to implement a machine learning model that would predict the nationality of a dish given it's ingredients. There was a training and testing dataset provided. In order to accomplish this task, I decided to implement a K-Nearest Neighbor model using sklearn. Also, I decided to implement some other clustering models such as HDBSCAN, Gaussian Mixture, Spectral Clustering and Birch to test accuracies, but ultimately ended up using K-Nearest Neighbor.
 
