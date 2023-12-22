@@ -61,8 +61,7 @@ Using OpenRefine and Pandas, I was able to clean and transform the data into a u
 > 
 > This is just a screenshot of the interactive D3 graph. To interact with the graph, visit the html page [_here_](https://rodjovit.github.io/2018VAST_MC3/q3.html)
 
-## Machine Learning
-### [Multinomial Naive Bayes Classification (on tweets)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
+## [Multinomial Naive Bayes Classification (on tweets)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
 
 <p align="center">
   <img width="550" src="img/mnb1.png">
@@ -70,7 +69,7 @@ Using OpenRefine and Pandas, I was able to clean and transform the data into a u
 
 The purpose of this project was to implement a machine learning model to classify the sentiment of tweets. The dataset given needed to be cleaned and trasnformed (done with Python) into a useable form before being fed to the model. The classification model chosen for this application was the Multinomial Naive Bayes Classification model using the sklearn module, and classifies tweets as positive or negative based on the context. As a result, the model was able to classify the tweets with a 78% accuracy.
 
-### [K Means Clustering (on articles)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
+## [K Means Clustering (on articles)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
 
 <p align="center">
   <img width="400" src="img/kmeans1.png">
