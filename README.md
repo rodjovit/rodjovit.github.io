@@ -16,7 +16,7 @@ After using some matplotlib to plot certain metrics to gain insight, it was then
   <img width="500" src="img/nfl2.png">
 </p>
 
-After this step, the data was cleaned further and finally ready for to be fed into a few models leading to Part III. The first model implemented was the XGBoost model. This model had an accuracy score of 70%, and a Brier Score of 0.202. The next model tested was the Logistic Regression model. This model had an accuracy score of 72%, and a Brier Score of 0.194. Finally, the lost model to be tested was the Random Forest model. This model had an accuracy score of 67%, and a Brier Score of 0.225.
+After this step, the data was cleaned further and finally ready for to be fed into a few models leading to Part III. The first model implemented was the XGBoost model. This model had an accuracy score of 70%, and a Brier Score of 0.202. The next model tested was the Logistic Regression model. This model had an accuracy score of 72%, and a Brier Score of 0.194. Finally, the last model to be tested was the Random Forest model. This model had an accuracy score of 67%, and a Brier Score of 0.225.
 
 <p align="center">
   <img width="500" src="img/nfl3.png">
