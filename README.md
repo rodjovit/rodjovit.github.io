@@ -40,7 +40,10 @@ Using .NET 8 Framwork (with Blazor), the goal of this project was to create an a
 An overhaul of systems included migrating certain applications and portals from .NET Framework 4.8 and below to the newer .NET 8 Framework (with Blazor). Over the course of 2 months, the team developed in an Agile methodology, meeting daily for check ins and monthly for overall updates. Using a Sprint-type of workflow, the team was able to successfully migrate the system(s) needed over to .NET 8 Framwork (with Blazor). Languages inclucded C#, JavaScript, HTML, CSS, and SQL.
 
 #### ETL Pipelines
-Multiple smaller projects included the implementation of ETL pipelines. Data was received typically in XML format. Using Python libraries to parse the XML such as BeautifulSoup and Pandas, the project proceeded with data cleaning and formatting in order to satisfy database requirements. Once the data was cleaned, it was then inserted and validated directly from the database using SQL queries. Once passing the validation function, the project may be automated using PowerShell scripting for further data wrangling.
+Multiple smaller projects included the implementation of ETL pipelines. Data was received typically in XML format, but came in other forms such as csv and xlsx. Using Python libraries to parse the XML such as BeautifulSoup and Pandas, the project proceeded with data cleaning and formatting in order to satisfy database requirements. Once the data was cleaned, it was then inserted and validated directly from the database using SQL queries. Once passing the validation function, the project may be automated using PowerShell scripting for further data wrangling.
+
+#### Code Decompilation Project
+Given assembly files and front end related files, the goal of the project was to recover functionality from user made assembly files and correlate them to the front end related files. Using decompilation tools, the code was sucdcessfully recovered and able to be reimplemented into another project, saving time and resources. 
 
 ## Personal and Collegiate Projects
 
