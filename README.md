@@ -10,17 +10,18 @@ This is a technical portfolio of work that I have done in regards to software de
    - [Shipment Load Management Application](#shipment-load-management-application)
    - [Platform Migration](#platform-migration)
    - [ETL Pipelines](#etl-pipelines)
-4. [2023 NFL Machine Learning Analysis](#2023-nfl-machine-learning-analysis)
-5. [Kaggle Machine Learning What's Cooking Contest](#kaggle-machine-learning-whats-cooking-contest)
-6. [2018 VAST MC3 Data Visualization Project](#2018-vast-mc3-data-visualization-project)
-7. [Multinomial Naive Bayes Classification (on tweets)](#multinomial-naive-bayes-classification-on-tweets)
-8. [K Means Clustering (on articles)](#k-means-clustering-on-articles)
-9. [Data Mining](#data-mining)
-   - [CNN Scraper](#cnn-scraper)
-10. [Data Cleaning](#data-cleaning)
-   - [Article Cleaner](#article-cleaner)
-11. [SQL/Relational Databases](#sqlrelational-databases)
-   - [2022 NFL QB and WR Stats Database](#2022-nfl-qb-and-wr-stats-database)
+3. [Personal and Collegiate Projects](#personal-and-collegiate-projects)
+   - [2023 NFL Machine Learning Analysis](#2023-nfl-machine-learning-analysis)
+   - [Kaggle Machine Learning What's Cooking Contest](#kaggle-machine-learning-whats-cooking-contest)
+   - [2018 VAST MC3 Data Visualization Project](#2018-vast-mc3-data-visualization-project)
+   - [Multinomial Naive Bayes Classification (on tweets)](#multinomial-naive-bayes-classification-on-tweets)
+   - [K Means Clustering (on articles)](#k-means-clustering-on-articles)
+   - [Data Mining](#data-mining)
+      - [CNN Scraper](#cnn-scraper)
+   - [Data Cleaning](#data-cleaning)
+      - [Article Cleaner](#article-cleaner)
+   - [SQL/Relational Databases](#sqlrelational-databases)
+      - [2022 NFL QB and WR Stats Database](#2022-nfl-qb-and-wr-stats-database)
 
 ---
 
@@ -41,7 +42,9 @@ An overhaul of systems included migrating certain applications and portals from 
 #### ETL Pipelines
 Multiple smaller projects included the implementation of ETL pipelines. Data was received typically in XML format. Using Python libraries to parse the XML such as BeautifulSoup and Pandas, the project proceeded with data cleaning and formatting in order to satisfy database requirements. Once the data was cleaned, it was then inserted and validated directly from the database using SQL queries. Once passing the validation function, the project may be automated using PowerShell scripting for further data wrangling.
 
-## [2023 NFL Machine Learning Analysis](https://github.com/rodjovit/rodjovit.github.io/blob/38caea52ab4b0d050ebede5b8060666a820fe06b/nfl_code/machine_learning_2023nfl_data.ipynb)
+## Personal and Collegiate Projects
+
+### [2023 NFL Machine Learning Analysis](https://github.com/rodjovit/rodjovit.github.io/blob/38caea52ab4b0d050ebede5b8060666a820fe06b/nfl_code/machine_learning_2023nfl_data.ipynb)
 The goal of this project was to implement a machine learning model that would accurately predict whether a defense would pressure a quarterback given a number of variables. Using libraries such as sklearn, xgboost, matplotlib, and Pandas, I was able to gain plenty of insight as to what variables are important versus others when blitzing. Firstly, the analysis started with superficial knowledge of a typical pressure situation. This would lead to Part I of the project.
 
 <p align="center">
@@ -66,7 +69,7 @@ To finish off the analysis, I decided to visualize which variables held the most
   <img width="500" src="img/nfl4.png">
 </p>
 
-## [Kaggle Machine Learning What's Cooking Contest](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/kaggle_whats_cooking)
+### [Kaggle Machine Learning What's Cooking Contest](https://github.com/rodjovit/rodjovit.github.io/tree/3e36df2b5a2acb123fc3d627e60d0a498a536a40/kaggle_whats_cooking)
 This project was done for a Kaggle Contest. In short, the task was to implement a machine learning model that would predict the nationality of a dish given it's ingredients. There was a training and testing dataset provided. In order to accomplish this task, I decided to implement a K-Nearest Neighbor model using sklearn. Also, I decided to implement some other clustering models such as HDBSCAN, Gaussian Mixture, Spectral Clustering and Birch to test accuracies, but ultimately ended up using K-Nearest Neighbor.
 
 <p align="center">
@@ -79,7 +82,7 @@ After testing the model on the testing dataset, the overall accuracy of the mode
   <img width="850" src="img/kag2.png">
 </p>
 
-## [2018 VAST MC3 Data Visualization Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
+### [2018 VAST MC3 Data Visualization Project](https://github.com/rodjovit/rodjovit.github.io/tree/4b49415e6f39fa94aa3cdc2609671dd8e7fd0fb1/2018VAST_MC3)
 Utilizing data visualization tools such as Tableau and D3, the purpose of this project was to:
 
  * analyze company interactions over time including calls, emails, meetings, and purchases
@@ -99,7 +102,7 @@ Using OpenRefine and Pandas, I was able to clean and transform the data into a u
 > 
 > This is just a screenshot of the interactive D3 graph. To interact with the graph, visit the html page [_here_](https://rodjovit.github.io/2018VAST_MC3/q3.html)
 
-## [Multinomial Naive Bayes Classification (on tweets)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
+### [Multinomial Naive Bayes Classification (on tweets)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/multinomialNB_tweets)
 
 <p align="center">
   <img width="550" src="img/mnb1.png">
@@ -107,7 +110,7 @@ Using OpenRefine and Pandas, I was able to clean and transform the data into a u
 
 The purpose of this project was to implement a machine learning model to classify the sentiment of tweets. The dataset given needed to be cleaned and trasnformed (done with Python) into a useable form before being fed to the model. The classification model chosen for this application was the Multinomial Naive Bayes Classification model using the sklearn module, and classifies tweets as positive or negative based on the context. As a result, the model was able to classify the tweets with a 78% accuracy.
 
-## [K Means Clustering (on articles)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
+### [K Means Clustering (on articles)](https://github.com/rodjovit/rodjovit.github.io/tree/c4a8da6adbdecd1073fa5fe0d2f64a2d4af84bf0/kMeansClustering_articles)
 
 <p align="center">
   <img width="400" src="img/kmeans1.png">
