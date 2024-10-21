@@ -34,6 +34,8 @@ Using .NET 4.8 Framework, the goal of this project was to streamline internal op
 #### Manual Loads Application
 Using .NET 8 Framwork (with Blazor), the goal of this project was to create an application that handles common manual functions that requires human intervention from the Logistics department. This application used a Blazor pages structure to provide main functionality. Functionality included retrieving data given certain criteria designated by the user, updating data within the database, and adding data within the database. Many visual features were implemented for quality of life enhancements such as highligting certain data points that didn't match the requirements for the required action, highlighting newly created data points by the user, implementing visual numerical metrics to keep track of data selection, and many more. As a result, this project was able to streamline a large portion of shipment handling, exponentially reducing time taken to do so manually.
 
+### Other Projects
+
 #### Platform Migration
 An overhaul of systems included migrating certain applications and portals from .NET Framework 4.8 and below to the newer .NET 8 Framework (with Blazor). Over the course of 2 months, the team developed in an Agile methodology, meeting daily for check ins and monthly for overall updates. Using a Sprint-type of workflow, the team was able to successfully migrate the system(s) needed over to .NET 8 Framwork (with Blazor). Languages inclucded C#, JavaScript, HTML, CSS, and SQL.
 
