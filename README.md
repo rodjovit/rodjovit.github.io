@@ -10,6 +10,7 @@ This is a technical portfolio of work that I have done in regards to software de
    - [Shipment Load Management Application](#shipment-load-management-application)
    - [Platform Migration](#platform-migration)
    - [ETL Pipelines](#etl-pipelines)
+   - [Code Decompilation Project](#code-decompilation-project)
 3. [Personal and Collegiate Projects](#personal-and-collegiate-projects)
    - [2023 NFL Machine Learning Analysis](#2023-nfl-machine-learning-analysis)
    - [Kaggle Machine Learning What's Cooking Contest](#kaggle-machine-learning-whats-cooking-contest)
