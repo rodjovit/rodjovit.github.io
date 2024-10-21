@@ -1,5 +1,22 @@
 # [rodjovit.github.io](https://rodjovit.github.io/)
 
+# Table of Contents
+
+1. [Technical Portfolio by Rodjovit Ramos](#technical-portfolio-by-rodjovit-ramos)
+2. [2023 NFL Machine Learning Analysis](#2023-nfl-machine-learning-analysis)
+3. [Kaggle Machine Learning What's Cooking Contest](#kaggle-machine-learning-whats-cooking-contest)
+4. [2018 VAST MC3 Data Visualization Project](#2018-vast-mc3-data-visualization-project)
+5. [Multinomial Naive Bayes Classification (on tweets)](#multinomial-naive-bayes-classification-on-tweets)
+6. [K Means Clustering (on articles)](#k-means-clustering-on-articles)
+7. [Data Mining](#data-mining)
+   - [CNN Scraper](#cnn-scraper)
+8. [Data Cleaning](#data-cleaning)
+   - [Article Cleaner](#article-cleaner)
+9. [SQL/Relational Databases](#sqlrelational-databases)
+   - [2022 NFL QB and WR Stats Database](#2022-nfl-qb-and-wr-stats-database)
+
+---
+
 ## Techinical Portfolio by Rodjovit Ramos
 This is a technical portfolio of work that I have done in regards to programming and data science concepts.
 
