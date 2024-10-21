@@ -27,10 +27,10 @@ This is a technical portfolio of work that I have done in regards to software de
 ## Professional Projects
 ### .NET Applications
 
-#### Product Delay Notifications
+#### Automated Email Notification System
 Using .NET 4.8 Framework, the goal of this project was to streamline internal operations within my company by creating an application that handles common manual functions that requires human intervention from the Order Entry department. This application used a WinForms structure/a simple GUI interface to handle form generation. Forms were created in pure HTML to sustain adaptability and compatibility across different email platforms. SQL queries involving CTEs, subqueries, cursors and more were used to retrieve data that would be cleaned/formatted and then injected into the HTML that would eventually be automated via email using PowerShell scripting. As a result, the project became fully automated via PowerShell scripting, and is triggered using different metrics to determine which form to produce and send.
 
-#### Manual Loads Application
+#### Load Management Application
 Using .NET 8 Framwork (with Blazor), the goal of this project was to create an application that handles common manual functions that requires human intervention from the Logistics department. This application used a Blazor pages structure to provide main functionality. Functionality included retrieving data given certain criteria designated by the user, updating data within the database, and adding data within the database. Many visual features were implemented for quality of life enhancements such as highligting certain data points that didn't match the requirements for the required action, highlighting newly created data points by the user, implementing visual numerical metrics to keep track of data selection, and many more. As a result, this project was able to streamline a large portion of shipment handling, exponentially reducing time taken to do so manually.
 
 ### Other Projects
