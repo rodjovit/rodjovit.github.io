@@ -4,6 +4,10 @@
 
 1. [Technical Portfolio by Rodjovit Ramos](#technical-portfolio-by-rodjovit-ramos)
 2. [Professional Projects](#professional-projects)
+   - [Product Delay Notification](#product-delay-notification)
+   - [Manual Loads Application](#manual-loads-application)
+   - [Platform Migration](#platform-migration)
+   - [ETL Pipelines](#etl-pipelines)
 4. [2023 NFL Machine Learning Analysis](#2023-nfl-machine-learning-analysis)
 5. [Kaggle Machine Learning What's Cooking Contest](#kaggle-machine-learning-whats-cooking-contest)
 6. [2018 VAST MC3 Data Visualization Project](#2018-vast-mc3-data-visualization-project)
@@ -24,16 +28,16 @@ This is a technical portfolio of work that I have done in regards to programming
 ## Professional Projects
 ###.NET Applications
 
-####Product Delay Notifications
+#### Product Delay Notifications
 Using .NET 4.8 Framework, the goal of this project was to streamline internal operations within my company by creating an application that handles common manual functions that requires human intervention from the Order Entry department. This application used a WinForms structure/a simple GUI interface to handle form generation. Forms were created in pure HTML to sustain adaptability and compatibility across different email platforms. SQL queries involving CTEs, subqueries, cursors and more were used to retrieve data that would be cleaned/formatted and then injected into the HTML that would eventually be automated via email using PowerShell scripting. As a result, the project became fully automated via PowerShell scripting, and is triggered using different metrics to determine which form to produce and send.
 
-####Manual Loads Application
+#### Manual Loads Application
 Using .NET 8 Framwork (with Blazor), the goal of this project was to create an application that handles common manual functions that requires human intervention from the Logistics department. This application used a Blazor pages structure to provide main functionality. Functionality included retrieving data given certain criteria designated by the user, updating data within the database, and adding data within the database. Many visual features were implemented for quality of life enhancements such as highligting certain data points that didn't match the requirements for the required action, highlighting newly created data points by the user, implementing visual numerical metrics to keep track of data selection, and many more. As a result, this project was able to streamline a large portion of shipment handling, exponentially reducing time taken to do so manually.
 
-####Platform Migration
+#### Platform Migration
 An overhaul of systems included migrating certain applications and portals from .NET Framework 4.8 and below to the newer .NET 8 Framework (with Blazor). Over the course of 2 months, the team developed in an Agile methodology, meeting daily for check ins and monthly for overall updates. Using a Sprint-type of workflow, the team was able to successfully migrate the system(s) needed over to .NET 8 Framwork (with Blazor). Languages inclucded C#, JavaScript, HTML, CSS, and SQL.
 
-####ETL Pipelines
+#### ETL Pipelines
 Multiple smaller projects included the implementation of ETL pipelines. Data was received typically in XML format. Using Python libraries to parse the XML such as BeautifulSoup and Pandas, the project proceeded with data cleaning and formatting in order to satisfy database requirements. Once the data was cleaned, it was then inserted and validated directly from the database using SQL queries. Once passing the validation function, the project may be automated using PowerShell scripting for further data wrangling.
 
 ## [2023 NFL Machine Learning Analysis](https://github.com/rodjovit/rodjovit.github.io/blob/38caea52ab4b0d050ebede5b8060666a820fe06b/nfl_code/machine_learning_2023nfl_data.ipynb)
