@@ -4,7 +4,7 @@
 
 1. [Technical Portfolio by Rodjovit Ramos](#technical-portfolio-by-rodjovit-ramos)
 2. [Professional Projects](#professional-projects)
-   - [Product Delay Notification](#product-delay-notification)
+   - [Product Delay Notifications](#product-delay-notifications)
    - [Manual Loads Application](#manual-loads-application)
    - [Platform Migration](#platform-migration)
    - [ETL Pipelines](#etl-pipelines)
@@ -26,7 +26,7 @@
 This is a technical portfolio of work that I have done in regards to programming and data science concepts.
 
 ## Professional Projects
-###.NET Applications
+### .NET Applications
 
 #### Product Delay Notifications
 Using .NET 4.8 Framework, the goal of this project was to streamline internal operations within my company by creating an application that handles common manual functions that requires human intervention from the Order Entry department. This application used a WinForms structure/a simple GUI interface to handle form generation. Forms were created in pure HTML to sustain adaptability and compatibility across different email platforms. SQL queries involving CTEs, subqueries, cursors and more were used to retrieve data that would be cleaned/formatted and then injected into the HTML that would eventually be automated via email using PowerShell scripting. As a result, the project became fully automated via PowerShell scripting, and is triggered using different metrics to determine which form to produce and send.
