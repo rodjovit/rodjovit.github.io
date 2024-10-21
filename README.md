@@ -1,4 +1,6 @@
 # [rodjovit.github.io](https://rodjovit.github.io/)
+## Techinical Portfolio by Rodjovit Ramos
+This is a technical portfolio of work that I have done in regards to software development and data science concepts.
 
 # Table of Contents
 
@@ -21,9 +23,6 @@
    - [2022 NFL QB and WR Stats Database](#2022-nfl-qb-and-wr-stats-database)
 
 ---
-
-## Techinical Portfolio by Rodjovit Ramos
-This is a technical portfolio of work that I have done in regards to programming and data science concepts.
 
 ## Professional Projects
 ### .NET Applications
