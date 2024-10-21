@@ -14,7 +14,7 @@ This is a technical portfolio of work that I have done in regards to software de
 3. [Personal and Collegiate Projects](#personal-and-collegiate-projects)
    - [2023 NFL Machine Learning Analysis](#2023-nfl-machine-learning-analysis)
    - [Kaggle Machine Learning What's Cooking Contest](#kaggle-machine-learning-whats-cooking-contest)
-   - [2018 VAST MC3 Data Visualization Project](#2018-vast-mc3-data-visualization-project)
+   - [Data Visualization Project](#2018-vast-mc3-data-visualization-project)
    - [Multinomial Naive Bayes Classification (on tweets)](#multinomial-naive-bayes-classification-on-tweets)
    - [K Means Clustering (on articles)](#k-means-clustering-on-articles)
    - [Data Mining](#data-mining)
